@@ -30,6 +30,7 @@ class ShipSpec: QuickSpec {
             }
         }
         
+        
         describe("Default implementation of steerInDirection(_:)") {
             it("Should change the direction property to equal the direction argument passed into the function. This should be implemented within the extension on the SteerAbility protocol.") {
                 
@@ -82,5 +83,6 @@ class ShipSpec: QuickSpec {
                 
             }
         }
+    
     }
 }
